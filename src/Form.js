@@ -1,6 +1,10 @@
 import { useState} from "react"
+import {useHistory} from "react-router-dom"
 
 function Form({coffeeOrder}) {
+
+    const history = useHistory()
+    console.log(history)
 
     const [formData, setFormData] = useState({
         name: "",
@@ -30,6 +34,7 @@ function Form({coffeeOrder}) {
                 recipe: "",
                 image: "",
             })
+            history.push("/coffee")
         })
     }
 
