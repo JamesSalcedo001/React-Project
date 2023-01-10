@@ -1,6 +1,9 @@
 function Home() {
     return (
-        <h1> hi from Home</h1>
+        <div>
+            <h1>HOMEPAGE</h1>
+            <p>My Name is James Salcedo and I am an Aspiring Software Engineer! Welcome to My Site!</p>
+        </div>
     )
 }
 
