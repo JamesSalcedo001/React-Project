@@ -1,0 +1,148 @@
+{
+    "products": [
+      {
+        "id": 2,
+        "name": "Cafe Americano",
+        "type": "Espresso",
+        "image": "https://globalassets.starbucks.com/assets/921a409e6f55407da52eee4c8ad13ada.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "extra shots of espresso mixed with hot water",
+        "likes": 0
+      },
+      {
+        "id": 3,
+        "name": "Caramel Frappuccino",
+        "type": "Blended",
+        "image": "https://globalassets.starbucks.com/assets/410cd92738514641bf497d4b6a18c30f.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Frappuccino Roast mixed with Whole Milk, Caramel Flavor, blended with ice, and topped with whipped cream and caramel drizzle",
+        "likes": 0
+      },
+      {
+        "id": 4,
+        "name": "Mocha Frappuccino",
+        "type": "Blended",
+        "image": "https://globalassets.starbucks.com/assets/70198375bb0a442f8792437b5d1df972.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Frappuccino Roast mixed with Whole Milk, Mocha Syrup, blended with ice, and topped with whipped cream",
+        "likes": 0
+      },
+      {
+        "id": 5,
+        "name": "Caramel Macciato",
+        "type": "Espresso",
+        "image": "https://globalassets.starbucks.com/assets/58db701349cb48738069e8c912e2b3ac.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Steamed 2% Milk, light vanilla flavoring, topped with espresso shots and a crosshatching of caramel drizzle",
+        "likes": 0
+      },
+      {
+        "id": 6,
+        "name": "Flat White",
+        "type": "Espresso",
+        "image": "https://globalassets.starbucks.com/assets/fedee22e49724cd09fbcc7ee2e567377.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Smooth Extra Ristretto shots, steamed whole milk with microfoam, poured with precision",
+        "likes": 0
+      },
+      {
+        "id": 7,
+        "name": "Pumpkin Cream Cold Brew",
+        "type": "Iced Coffee",
+        "image": "https://globalassets.starbucks.com/assets/b2841a2f51744869932c31834909f0e9.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Iced Coffee brewed for 20 hours, mixed with a vanilla syrup, ice, and topped with Pumpkin Cream Foam",
+        "likes": 0
+      },
+      {
+        "id": 8,
+        "name": "Pumpkin Spice Latte",
+        "type": "Espresso",
+        "image": "https://globalassets.starbucks.com/assets/895d6b3916c14ad6862d88ce282e8838.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Steamed 2% Milk and shots of espresso, Pumpkin Sauce, topped with Whipped Cream and Pumpkin Spice",
+        "likes": 0
+      },
+      {
+        "id": 9,
+        "name": "Chai Tea Latte",
+        "type": "Tea Latte",
+        "image": "https://globalassets.starbucks.com/assets/2d52f16a22fb40ff898be1815ecc952e.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Steamed 2% Milk and hot water mixed with Chai Tea Syrup",
+        "likes": 0
+      },
+      {
+        "id": 10,
+        "name": "Mocha Latte",
+        "type": "Espresso",
+        "image": "https://globalassets.starbucks.com/assets/915736da018842e788147f7eab73db73.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Steamed 2% Milk and shots of espresso, mixed with Mocha Syrup and topped with Whipped Cream",
+        "likes": 0
+      },
+      {
+        "id": 11,
+        "name": "Irish Cream Cold Brew",
+        "type": "Iced Coffee",
+        "image": "https://globalassets.starbucks.com/assets/a73482f62665458291eb70a45264ca1c.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Iced Coffee brewed for 20 hours, mixed with a Irish Cream syrup, ice, and topped with Irish Cream Foam and a strike of cocoa powder",
+        "likes": 0
+      },
+      {
+        "id": 12,
+        "name": "Caramel Crunch Frappuccino",
+        "type": "Blended",
+        "image": "https://globalassets.starbucks.com/assets/22f8e0db2106468d953bce434f5328a3.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Frappuccino Roast and Whole Milk, blended with ice, Dark Caramel Sauce, and whipped cream on top and bottom, finished off with two layers of caramel drizzle and crunch",
+        "likes": 0
+      },
+      {
+        "id": 13,
+        "name": "Mocha Cookie Crumble Frappuccino",
+        "type": "Blended",
+        "image": "https://globalassets.starbucks.com/assets/1fd99578d31f4072a52892398d8f1fa8.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Frappuccino Roast and Whole Milk, blended with ice, Java Chips, Mocha Sauce, and whipped cream on top and bottom, finished off with two layers of Mocha drizzle and cookie topping",
+        "likes": 0
+      },
+      {
+        "id": 14,
+        "name": "Peppermint Mocha",
+        "type": "Espresso",
+        "image": "https://globalassets.starbucks.com/assets/9c7cbbff6b6e4b2a8a9bd403e83dcdde.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Steamed 2% Milk and shots of espresso, mixed with Peppermint and Mocha syrups, topped with Whipped cream and Chocolate Curls",
+        "likes": 0
+      },
+      {
+        "id": 15,
+        "name": "Strawberries & Creme Frappuccino",
+        "type": "Blended",
+        "image": "https://globalassets.starbucks.com/assets/abd48a12ed76482790f2079db420f2c4.jpg?impolicy=1by1_wide_topcrop_630",
+        "recipe": "Whole Milk, Strawberry Puree, blended with ice, and topped with whipped cream",
+        "likes": 0
+      },
+      {
+        "name": "Black and White Mocha Frappuccino",
+        "type": "Blended",
+        "recipe": "Venti Sized, Frap Roast, Soy Milk, blended with ice, 3 pumps White Mocha, 3 pumps Mocha, topped with Whip and Chocolate Chips",
+        "image": "https://www.starbucks.pe/Multimedia/productos/detalle/BLACK_AND_WHITE_MOCHA_FRAPP_V2.png",
+        "likes": 0,
+        "id": 17
+      },
+      {
+        "name": "Pike's Place",
+        "type": "Brewed Coffee",
+        "recipe": "Freshly Brewed Coffee with a dash of cinnamon and Cold Soy Milk",
+        "image": "https://globalassets.starbucks.com/assets/bffaf0f27e124801abcabe09f05b0fb2.jpg?impolicy=1by1_wide_topcrop_630",
+        "likes": 0,
+        "id": 18
+      },
+      {
+        "name": "Birthday Cake Frappuccino",
+        "type": "Blended",
+        "recipe": "Grande Sized, Vanilla Bean Powder, Whole Milk, Hazelnut Syrup, Blended with Ice and topped with whipped cream!",
+        "image": "https://globalassets.starbucks.com/assets/b7b496402286415c9c2be5bc1b4d7c3e.jpg?impolicy=1by1_wide_topcrop_630",
+        "likes": 0,
+        "id": 19
+      },
+      {
+        "name": "Sugar Cookie Latte",
+        "type": "Espresso",
+        "recipe": "Grande, Iced, 2 ex pumps sugar cookie syrup, light ice, Soy Milk, sprinkles on top",
+        "image": "https://globalassets.starbucks.com/assets/a7fb63cb5bee4f3d9c8fd79088be6337.jpg?impolicy=1by1_wide_topcrop_630",
+        "likes": 0,
+        "id": 20
+      }
+    ]
+  }
