@@ -1,6 +1,12 @@
-function Card() {
+function Card({coffee}) {
+    const {name, type, recipe, image, likes} = coffee
     return (
-        <h1>Hi from Card</h1>
+        <li>
+            <h4>{name}</h4>
+            <img src={image} alt={name}/>
+            <p>{type}</p>
+            <p>{recipe}</p>
+        </li>
     )
 }
 

@@ -1,8 +1,17 @@
 import Card from "./Card"
 
-function List() {
+function List({coffee}) {
+
+    const coffeeMap = coffee.map((coffee) => {
+        return (
+            <Card key={coffee.id} coffee={coffee}/>
+        )
+    })
+
     return (
-        <Card/>
+        <div>
+            <ul>{coffeeMap}</ul>
+        </div>
     )
 }
 

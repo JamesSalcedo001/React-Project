@@ -28,7 +28,7 @@ function App() {
         </Route>
 
         <Route path="/coffee">
-          <List/>
+          <List coffee={coffee}/>
         </Route>
 
         <Route path="/">
