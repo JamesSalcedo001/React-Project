@@ -10,13 +10,17 @@ import {useEffect, useState} from "react"
 
 function App() {
 
-  const [coffee, setCoffee] = useState([])
+  const [coffee, addNewCoffee] = useState([])
 
   useEffect(() => {
     fetch("http://localhost:3000/products")
     .then((res) => res.json())
-    .then((coffee) => setCoffee(coffee))
+    .then((coffee) => addNewCoffee(coffee))
   },[])
+
+  const coffeeOrder = (newCoffee) => {
+    addNewCoffee((coffeeObj) => [...coffeeObj, newCoffee])
+  }
 
   return (
     <div className="App">
@@ -24,7 +28,7 @@ function App() {
 
       <Switch>
         <Route path="/coffee/new">
-          <Form/>
+          <Form coffeeOrder={coffeeOrder} />
         </Route>
 
         <Route path="/coffee">
