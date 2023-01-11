@@ -1,10 +1,10 @@
 import Card from "./Card"
 
-function List({coffee}) {
+function List({coffee, deleter}) {
 
     const coffeeMap = coffee.map((coffee) => {
         return (
-            <Card key={coffee.id} coffee={coffee}/>
+            <Card key={coffee.id} coffee={coffee} deleter={deleter}/>
         )
     })
 

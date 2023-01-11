@@ -12,15 +12,24 @@ function App() {
 
   const [coffee, addNewCoffee] = useState([])
 
+
   useEffect(() => {
     fetch("http://localhost:3000/products")
     .then((res) => res.json())
     .then((coffee) => addNewCoffee(coffee))
   },[])
 
+
   const coffeeOrder = (newCoffee) => {
     addNewCoffee((coffeeObj) => [...coffeeObj, newCoffee])
   }
+
+
+  function deleter(deletedCoffee) {
+    const newCoffeeList = coffee.filter((coffee) => coffee.id !== deletedCoffee.id)
+    addNewCoffee(newCoffeeList)
+  }
+
 
   return (
     <div className="App">
@@ -32,7 +41,7 @@ function App() {
         </Route>
 
         <Route path="/coffee">
-          <List coffee={coffee}/>
+          <List coffee={coffee} deleter={deleter}/>
         </Route>
 
         <Route path="/">

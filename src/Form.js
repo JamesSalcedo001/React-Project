@@ -4,7 +4,6 @@ import {useHistory} from "react-router-dom"
 function Form({coffeeOrder}) {
 
     const history = useHistory()
-    console.log(history)
 
     const [formData, setFormData] = useState({
         name: "",
@@ -41,25 +40,25 @@ function Form({coffeeOrder}) {
 
     function changeHandler(e) {
         const {name, value} = e.target
-        setFormData((formDataObj) => ({...formDataObj, [name]: value }))
+        setFormData((formDataObj) => ({...formDataObj, [name]:value }))
     }
 
     return (
         <div>
             <section>
-                <form onSubmit={submit}>
+                <form onSubmit={submit} autoComplete="off">
                     <h3>Mobile Order!</h3>
                     <label htmlFor="name">Name</label>
                     <input type="text" onChange={changeHandler} name="name" value={formData.name} placeholder="what coffee?"/>
 
                     <label htmlFor="type">Type</label>
-                    <input type="text" onChange={changeHandler} value={formData.type} placeholder="blended, brewed, espresso, tea, iced coffee, other?"/>
+                    <input type="text" onChange={changeHandler} name="type" value={formData.type} placeholder="blended, brewed, espresso, tea, iced coffee, other?"/>
 
-                    <label htmlFor="recipe">Type</label>
-                    <input type="text" onChange={changeHandler} value={formData.recipe} placeholder="size, description, inclusions, exclusions?"/>
+                    <label htmlFor="recipe">Recipe</label>
+                    <input type="text" onChange={changeHandler} name="recipe" value={formData.recipe} placeholder="size, description, inclusions, exclusions?"/>
 
                     <label htmlFor="image">Type</label>
-                    <input type="text" onChange={changeHandler} value={formData.image} placeholder="what does it look like?"/>
+                    <input type="text" onChange={changeHandler} name="image" value={formData.image} placeholder="what does it look like?"/>
 
                     <input type="submit" value="Order!"/>
                 </form>
