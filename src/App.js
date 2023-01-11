@@ -45,7 +45,7 @@ function App() {
         </Route>
 
         <Route path="/">
-          <Home/>
+          <Home coffee={coffee} deleter={deleter}/>
         </Route>
       </Switch>
     </div>
