@@ -8,12 +8,12 @@ body {
 }
 
 .Light {
-  background-color: rgb(220, 220, 133);
-  color: gray;
+  background-color: rgb(209, 162, 96);
+  color: rgb(255, 245, 245);
 }
 
 .Dark {
-  background-color: black;
+  background-color: rgb(1, 71, 45);
   color: whitesmoke;
 }
 
@@ -22,13 +22,44 @@ body {
   color: rgb(85, 61, 7);
   height: 78vh;
   width: 52vh;
+  border-radius: 5vh;
+  border: solid 1vh rgb(71, 50, 1);
 }
 
 .cards {
   margin: 25vh;
+  margin-left: -2.5vh;
   list-style: none;
   display: grid;
   gap: 6rem;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   width: 100%;
+}
+
+.headerDiv {
+  background-color: rgb(106, 104, 104);
+  border: 0.5vh solid black;
+  height: 11vh;
+  border-radius: 1.5vh;
+}
+
+.homeDiv {
+  background-color: inherit;
+  height: 600vh;
+}
+
+.formDiv {
+  height: 300vh;
+  background-color: inherit;
+}
+
+.listDiv {
+  height: 600vh;
+  background-color: inherit;
+}
+
+.image {
+  border-radius: 22vh;
+  width: 310px;
+  height: 310px;
 }

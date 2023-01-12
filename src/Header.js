@@ -9,7 +9,7 @@ function Header({darkMode, darkToggle}) {
     const buttonText = darkMode ? "Light Mode" : "Dark Mode"
 
     return (
-        <header className={darkMode ? "Dark" : "Light"}>
+        <header className="headerDiv">
             <nav>
                 <Link to="/" style={{textDecoration:"none"}}>
                     <h1>StarBucks</h1>

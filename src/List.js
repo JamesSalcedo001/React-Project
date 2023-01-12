@@ -9,7 +9,7 @@ function List({coffee, deleter, updater}) {
     })
 
     return (
-        <div>
+        <div className="listDiv">
             <ul className="cards">{coffeeMap}</ul>
         </div>
     )

@@ -44,7 +44,7 @@ function Form({coffeeOrder}) {
     }
 
     return (
-        <div>
+        <div className="formDiv">
             <section>
                 <form onSubmit={submit} autoComplete="off">
                     <h3>Mobile Order!</h3>

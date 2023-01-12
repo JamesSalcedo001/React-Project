@@ -33,7 +33,7 @@ function Card({coffee, deleter, updater}) {
             <h4>{name}</h4>
 
             <figure>
-                <img src={image} alt={name}/>
+                <img className="image" src={image} alt={name}/>
             </figure>
             
             <section>
