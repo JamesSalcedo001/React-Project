@@ -4,7 +4,7 @@ function List({coffee, deleter, updater}) {
 
     const coffeeMap = coffee.map((coffee) => {
         return (
-            <Card key={coffee.id} coffee={coffee} deleter={deleter} updater={updater}/>
+            <Card key={coffee.id} coffee={coffee} deleter={deleter} updater={updater} />
         )
     })
 

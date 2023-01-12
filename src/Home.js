@@ -2,7 +2,7 @@ import Clock from "./Clock"
 import {useEffect, useState} from "react"
 import Card from "./Card"
 
-function Home({coffee, deleter}) {
+function Home({coffee, deleter, updater}) {
     const [newOrders, setNewOrder] = useState([])
 
     useEffect(() => {
@@ -12,6 +12,7 @@ function Home({coffee, deleter}) {
             setNewOrder(newOrd)
         })
     },[])
+
 
     return (
         <div>
@@ -23,7 +24,7 @@ function Home({coffee, deleter}) {
                 <h1>CURRENT ORDERS</h1>
                 <ul>
                     {newOrders.map((coffeeObj) => (
-                        <Card key={coffeeObj.id} coffee={coffeeObj}/>
+                        <Card key={coffeeObj.id} coffee={coffeeObj} deleter={deleter} updater={updater}/>
                     ))}
                 </ul>
             </section>

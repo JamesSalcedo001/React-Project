@@ -10,6 +10,8 @@ import {useEffect, useState} from "react"
 
 function App() {
 
+  const [darkMode, setDarkMode] = useState(false)
+
   const [coffee, addNewCoffee] = useState([])
 
 
@@ -41,10 +43,14 @@ function App() {
     addNewCoffee(updatedCoffeeList)
   }
 
+  function darkToggle(){
+    setDarkMode((darkMode) => !darkMode)
+  }
+
 
   return (
-    <div className="App">
-      <Header/>
+    <div className={darkMode ? "Dark" : "Light"}>
+      <Header darkMode={darkMode} darkToggle={darkToggle}/>
 
       <Switch>
         <Route path="/coffee/new">
@@ -56,7 +62,7 @@ function App() {
         </Route>
 
         <Route path="/">
-          <Home coffee={coffee} deleter={deleter}/>
+          <Home coffee={coffee} deleter={deleter} updater={updater}/>
         </Route>
       </Switch>
     </div>

@@ -1,0 +1,14 @@
+body {
+  background-color: var();
+}
+
+.Light {
+  background-color: rgb(220, 220, 133);
+  color: gray;
+}
+
+.Dark {
+  background-color: black;
+  color: whitesmoke;
+}
+
