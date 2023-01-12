@@ -10,7 +10,7 @@ function List({coffee, deleter, updater}) {
 
     return (
         <div>
-            <ul>{coffeeMap}</ul>
+            <ul className="cards">{coffeeMap}</ul>
         </div>
     )
 }

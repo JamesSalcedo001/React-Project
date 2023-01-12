@@ -6,7 +6,7 @@ function Header({darkMode, darkToggle}) {
         darkToggle()
     }
 
-    const buttonText = darkMode ? "Dark Mode" : "Light Mode"
+    const buttonText = darkMode ? "Light Mode" : "Dark Mode"
 
     return (
         <header className={darkMode ? "Dark" : "Light"}>

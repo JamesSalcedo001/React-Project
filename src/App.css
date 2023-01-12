@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: var();
+  margin: 0;
+  text-align: center;
 }
 
 .Light {
@@ -12,3 +17,18 @@ body {
   color: whitesmoke;
 }
 
+.cardLi {
+  background-color: rgb(228, 208, 155);
+  color: rgb(85, 61, 7);
+  height: 78vh;
+  width: 52vh;
+}
+
+.cards {
+  margin: 25vh;
+  list-style: none;
+  display: grid;
+  gap: 6rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  width: 100%;
+}

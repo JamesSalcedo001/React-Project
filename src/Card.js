@@ -29,7 +29,7 @@ function Card({coffee, deleter, updater}) {
     }
 
     return (
-        <li>
+        <li className="cardLi">
             <h4>{name}</h4>
 
             <figure>
