@@ -46,7 +46,7 @@ function Form({coffeeOrder}) {
     return (
         <div className="formDiv">
             <section>
-                <form onSubmit={submit} autoComplete="off">
+                <form onSubmit={submit} autoComplete="off" className="form">
                     <h3>Mobile Order!</h3>
                     <label htmlFor="name">Name</label>
                     <input type="text" onChange={changeHandler} name="name" value={formData.name} placeholder="what coffee?"/>

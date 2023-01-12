@@ -63,3 +63,15 @@ body {
   width: 310px;
   height: 310px;
 }
+
+.form {
+  background-color: rgb(220, 181, 137);
+  flex-direction: column;
+  width: 95vh;
+  height: 80vh;
+  border-radius: 3vh;
+  margin: 15vh 41vh;
+  padding: 1.5vh;
+  color: rgb(71, 50, 1);
+  border: 1vh solid rgb(71, 50, 1);
+}
