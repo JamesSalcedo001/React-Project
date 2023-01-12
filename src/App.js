@@ -30,6 +30,17 @@ function App() {
     addNewCoffee(newCoffeeList)
   }
 
+  function updater(updatedCoffee) {
+    const updatedCoffeeList = coffee.map((coffeeObj) => {
+      if (coffeeObj.id === updatedCoffee.id) {
+        return updatedCoffee
+      } else {
+        return coffeeObj;
+      }
+    })
+    addNewCoffee(updatedCoffeeList)
+  }
+
 
   return (
     <div className="App">
@@ -41,7 +52,7 @@ function App() {
         </Route>
 
         <Route path="/coffee">
-          <List coffee={coffee} deleter={deleter}/>
+          <List coffee={coffee} deleter={deleter} updater={updater}/>
         </Route>
 
         <Route path="/">
