@@ -61,6 +61,7 @@ body {
 }
 
 .image {
+  border: 0.5vh solid rgb(241, 241, 241);
   border-radius: 22vh;
   width: 310px;
   height: 310px;
@@ -77,3 +78,58 @@ body {
   color: rgb(71, 50, 1);
   border: 1vh solid rgb(71, 50, 1);
 }
+
+
+#darkButton {
+  /* position: relative;
+  top: -112.5px; */
+  float: right;
+  font-size: x-large;
+  font-weight: bold;
+  border: 1vh solid black; 
+  background-color: rgb(58, 53, 53);
+  width: 9.5vh;
+  height: 9.5vh;
+}
+
+#sun {
+  /* position:relative;
+  left: 0.7vh;
+  top: 0.8vh; */
+  border-radius: 6vh;
+  height: 7.5vh;
+  width: 7.5vh;
+}
+
+#sun:hover {
+  color: rgb(255, 213, 0);
+}
+
+
+#moon {
+  /* position:relative;
+  left: 0.7vh;
+  top: 0.8vh; */
+  border-radius: 6vh;
+  height: 7.5vh;
+  width: 7.5vh;
+}
+
+#moon:hover {
+  color: rgb(0, 204, 255);
+}
+
+
+button {
+  border-radius: 1.7vh;
+  padding: 1.5vh;
+  border: 0.5vh solid rgb(250, 250, 250);
+  background-color: rgb(1, 71, 45);
+  color: rgb(255, 255, 255) ;
+}
+
+
+button:hover {
+  background-color: rgb(96, 95, 93);
+}
+

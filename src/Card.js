@@ -1,7 +1,8 @@
-// import {useState} from "react"
+import {useState} from "react"
 
 function Card({coffee, deleter, updater}) {
     const {name, id, type, recipe, image, likes} = coffee
+    const [favs, setFavs] = useState(false)
 
 
     function removeCoffee(){
@@ -30,22 +31,27 @@ function Card({coffee, deleter, updater}) {
 
     return (
         <li className="cardLi">
-            <h4>{name}</h4>
+            <h4 id="drinkNames">{name}</h4>
+            {favs ? (
+                <button onClick={() => setFavs(false)} className="star favorite active">★</button>
+            ) : (
+                <button onClick={() => setFavs(true)} className="star favorite">☆</button>
+            )}
 
-            <figure>
+            <figure id="img">
                 <img className="image" src={image} alt={name}/>
             </figure>
             
             <section>
-                <p>{type}</p>
+                <p id="cardText">{type}</p>
             </section>
 
-            <div>
-                <p>{recipe}</p>
+            <div id="recipeDiv">
+                <p id="recipeP">{recipe}</p>
             </div>
 
-            <button onClick={likePatch}>LIKES: {likes}</button>
-            <button onClick={removeCoffee}>REMOVE</button>
+            <button id="likeButton" onClick={likePatch}>LIKES: {likes}</button>
+            <button id="delete" onClick={removeCoffee}>REMOVE</button>
         </li>
     )
 }

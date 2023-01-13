@@ -7,7 +7,7 @@ function Header({darkMode, darkToggle}) {
         darkToggle()
     }
 
-    const buttonText = darkMode ? <FaRegSun/> : <FaRegMoon/>
+    const buttonText = darkMode ? <FaRegSun id="sun"/> : <FaRegMoon id="moon"/>
 
     return (
         <header className="headerDiv">
@@ -18,7 +18,7 @@ function Header({darkMode, darkToggle}) {
                 <div>
                     <NavLink exact to="/coffee" style={{textDecoration:"none"}}>All Coffee</NavLink>
                     <NavLink exact to="/coffee/new"style={{textDecoration:"none"}}>Custom Brew</NavLink>
-                    <button onClick={clickHandler}>{buttonText}</button>
+                    <button id="darkButton" onClick={clickHandler}>{buttonText}</button>
                 </div>
             </nav>
         </header>
