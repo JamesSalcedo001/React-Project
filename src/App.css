@@ -151,9 +151,35 @@ color: rgb(198, 171, 112);
 }
 
 #button1 {
+  background-color: rgb(1, 71, 45);
+  border: solid white;
+  color: rgb(198, 171, 112);
+  border-radius: 3vh;
+  text-align: center;
+  padding: 2.7vh;
+  font-weight: bolder;
+  font-size: x-large;
+}
 
+#button1:hover {
+  color: whitesmoke;
+  background-color: rgb(96, 95, 93);
+  border:0.5vh solid rgb(198, 171, 112);
 }
 
 #button2 {
+  background-color: rgb(1, 71, 45);
+  border: solid white;
+  color: rgb(198, 171, 112);
+  border-radius: 3vh;
+  text-align: center;
+  padding: 2.7vh;
+  font-weight: bolder;
+  font-size: x-large;
+}
 
+#button2:hover {
+  color: whitesmoke;
+  background-color: rgb(96, 95, 93);
+  border:0.5vh solid rgb(198, 171, 112);
 }
