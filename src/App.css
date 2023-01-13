@@ -253,3 +253,14 @@ input {
   position: relative;
   top: -50vh;
 }
+
+#clock {
+  font-weight: bolder;
+  font-size: x-large;
+  border-radius: 3.6vh;
+  padding: 1vh;
+  background-color: rgb(163, 203, 213);
+  border: 0.5vh solid rgb(71, 50, 1);
+  color: rgb(237, 237, 237);
+  height: 30vh;
+}

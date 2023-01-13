@@ -15,7 +15,7 @@ function Clock() {
     }, [])
 
     return (
-        <span> {date.toLocaleTimeString()}</span>
+        <span id="clock"> {date.toLocaleTimeString()}</span>
     )
 }
 
