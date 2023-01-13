@@ -70,6 +70,7 @@ body {
 .form {
   background-color: rgb(220, 181, 137);
   flex-direction: column;
+  display: flex;
   width: 95vh;
   height: 80vh;
   border-radius: 3vh;
@@ -214,3 +215,14 @@ input {
   background-color: rgb(163, 203, 213);
 }
 
+#recipeP {
+  color: rgb(75, 74, 74);
+}
+
+#recipeDiv {
+  height: 16vh;
+  width: 50.8;
+  border-radius: 3.5px;
+  background-color: rgb(161,180,185);
+  border: 0.5vh solid rgb(71, 50, 1);
+}
