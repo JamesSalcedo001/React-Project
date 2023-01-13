@@ -16,13 +16,13 @@ function Home({coffee, deleter, updater}) {
 
     return (
         <div className="homeDiv">
-            <h1>HOMEPAGE</h1>
+            <h1 id="homeTitle">HOMEPAGE</h1>
             <p>My Name is James Salcedo and I am an Aspiring Software Engineer! Welcome to My Site!</p>
             { "The Time is Now: "}<Clock/>
 
             <section>
-                <h1>CURRENT ORDERS</h1>
-                <ul>
+                <h1 id="homeCurrentOrders">CURRENT ORDERS</h1>
+                <ul id="newOrders">
                     {newOrders.map((coffeeObj) => (
                         <Card key={coffeeObj.id} coffee={coffeeObj} deleter={deleter} updater={updater}/>
                     ))}

@@ -264,3 +264,17 @@ input {
   color: rgb(237, 237, 237);
   height: 30vh;
 }
+
+#newOrders {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 6rem;
+  margin: 25vh;
+  margin-left: -2.5vh;
+  width: 100%;
+}
+
+#homeCurrentOrders {
+
+}
