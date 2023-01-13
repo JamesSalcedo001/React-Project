@@ -276,5 +276,12 @@ input {
 }
 
 #homeCurrentOrders {
-
+  font-size: x-large;
+  margin: 5vh auto;
+  height: 10vh;
+  width: 25vh;
+  border-radius: 3vh;
+  color: rgb(50, 42, 42);
+  border: 1vh solid rgb(71, 50, 1);
+  background-color: rgb(163, 203, 213);
 }
