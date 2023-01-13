@@ -1,4 +1,5 @@
 import {Link, NavLink} from "react-router-dom"
+import {FaRegSun, FaRegMoon} from "react-icons/fa"
 
 function Header({darkMode, darkToggle}) {
 
@@ -6,7 +7,7 @@ function Header({darkMode, darkToggle}) {
         darkToggle()
     }
 
-    const buttonText = darkMode ? "Light Mode" : "Dark Mode"
+    const buttonText = darkMode ? <FaRegSun/> : <FaRegMoon/>
 
     return (
         <header className="headerDiv">

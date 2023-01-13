@@ -18,6 +18,8 @@ body {
 }
 
 .cardLi {
+  margin-top: -8vh;
+  margin-bottom: 10vh;
   background-color: rgb(228, 208, 155);
   color: rgb(85, 61, 7);
   height: 78vh;
@@ -32,7 +34,7 @@ body {
   list-style: none;
   display: grid;
   gap: 6rem;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(38vh, 1fr));
   width: 100%;
 }
 
