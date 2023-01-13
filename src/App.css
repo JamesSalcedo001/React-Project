@@ -133,3 +133,27 @@ button:hover {
   background-color: rgb(96, 95, 93);
 }
 
+#title {
+padding: 1.5vh;
+border-radius: 2.7vh;
+height: 9.5vh;
+text-align: left;
+width:fit-content;
+border: 0.5vh solid rgb(250, 250, 250);
+background-color: rgb(1, 71, 45);
+color: rgb(198, 171, 112);
+}
+
+#title:hover {
+  color: whitesmoke;
+  background-color: rgb(96, 95, 93);
+  border: 0.5vh solid rgb(198, 171, 112);
+}
+
+#button1 {
+
+}
+
+#button2 {
+
+}

@@ -13,11 +13,11 @@ function Header({darkMode, darkToggle}) {
         <header className="headerDiv">
             <nav>
                 <Link to="/" style={{textDecoration:"none"}}>
-                    <h1>StarBucks</h1>
+                    <h1 id="title">StarBucks</h1>
                 </Link>
-                <div>
-                    <NavLink exact to="/coffee" style={{textDecoration:"none"}}>All Coffee</NavLink>
-                    <NavLink exact to="/coffee/new"style={{textDecoration:"none"}}>Custom Brew</NavLink>
+                <div id="nav">
+                    <NavLink exact to="/coffee" style={{textDecoration:"none"}} id="button1">All Coffee</NavLink>
+                    <NavLink exact to="/coffee/new"style={{textDecoration:"none"}} id="button2">Custom Brew</NavLink>
                     <button id="darkButton" onClick={clickHandler}>{buttonText}</button>
                 </div>
             </nav>
