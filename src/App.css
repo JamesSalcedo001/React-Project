@@ -203,3 +203,14 @@ color: rgb(198, 171, 112);
   text-shadow: 0 0 0 gold;
   cursor: pointer;
 }
+
+input {
+  font-size: larger;
+  margin-bottom: 3vh;
+  margin-top: 0.5vh;
+  padding: 2vh;
+  border: 0.5vh solid rgb(71, 50, 1);
+  border-radius: 3vh;
+  background-color: rgb(163, 203, 213);
+}
+
