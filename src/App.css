@@ -183,3 +183,23 @@ color: rgb(198, 171, 112);
   background-color: rgb(96, 95, 93);
   border:0.5vh solid rgb(198, 171, 112);
 }
+
+.star {
+  border: solid 0.5vh rgb(71, 50, 1);
+  padding: 0.8vh;
+  border-radius: 1.6rem;
+  width: 5vh;
+  height: 5vh;
+  cursor: pointer;
+}
+
+.star.favorite {
+  color: transparent;
+  text-shadow: 0 0 0 gray;
+}
+
+.star.active,
+.star.favorite:hover {
+  text-shadow: 0 0 0 gold;
+  cursor: pointer;
+}
