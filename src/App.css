@@ -82,8 +82,9 @@ body {
 
 
 #darkButton {
-  /* position: relative;
-  top: -112.5px; */
+  position: relative;
+  top: -14.3vh;
+  left: -0.5vh;
   float: right;
   font-size: x-large;
   font-weight: bold;
@@ -94,9 +95,9 @@ body {
 }
 
 #sun {
-  /* position:relative;
-  left: 0.7vh;
-  top: 0.8vh; */
+  position: relative;
+  left: -1.4vh;
+  top:-1.5vh;
   border-radius: 6vh;
   height: 7.5vh;
   width: 7.5vh;
@@ -108,9 +109,9 @@ body {
 
 
 #moon {
-  /* position:relative;
-  left: 0.7vh;
-  top: 0.8vh; */
+  position: relative;
+  left: -1.4vh;
+  top:-1.5vh;
   border-radius: 6vh;
   height: 7.5vh;
   width: 7.5vh;
@@ -135,6 +136,9 @@ button:hover {
 }
 
 #title {
+position: relative;
+bottom: 2.3vh;
+left: 0.5vh;
 padding: 1.5vh;
 border-radius: 2.7vh;
 height: 9.5vh;
@@ -152,6 +156,9 @@ color: rgb(198, 171, 112);
 }
 
 #button1 {
+  position: relative;
+  top: -11.4vh;
+  right: 40.5vh;
   background-color: rgb(1, 71, 45);
   border: solid white;
   color: rgb(198, 171, 112);
@@ -169,6 +176,9 @@ color: rgb(198, 171, 112);
 }
 
 #button2 {
+  position: relative;
+  top: -11.4vh;
+  left: -34.5vh;
   background-color: rgb(1, 71, 45);
   border: solid white;
   color: rgb(198, 171, 112);
