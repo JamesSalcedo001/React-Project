@@ -63,10 +63,11 @@ body {
 .image {
   border: 0.5vh solid rgb(241, 241, 241);
   border-radius: 22vh;
-  width: 310px;
-  height: 310px;
+  width: 40vh;
+  height: 40vh;
   position: relative;
-  top: -48vh;
+  top: -49vh;
+  left: -0.5vh;
 }
 
 .form {
@@ -264,12 +265,18 @@ input {
   border: 0.5vh solid gray;
   height: 5.2vh;
   padding: 0.5vh;
+  position: relative;
+  top: -76.4vh;
+  left: 13.9vh;
 }
 
 #likeButton {
   height: 5.2vh;
   border: 0.5vh solid gray;
   padding: 0.99vh;
+  position: relative;
+  top: -76.4vh;
+  left: -13.9vh;
 }
 
 #cardText {

@@ -94,7 +94,7 @@
       "type": "Espresso",
       "image": "https://globalassets.starbucks.com/assets/9c7cbbff6b6e4b2a8a9bd403e83dcdde.jpg?impolicy=1by1_wide_topcrop_630",
       "recipe": "Steamed 2% Milk and shots of espresso, mixed with Peppermint and Mocha syrups, topped with Whipped cream and Chocolate Curls",
-      "likes": 10
+      "likes": 12
     },
     {
       "id": 15,
@@ -117,7 +117,7 @@
       "type": "Brewed Coffee",
       "recipe": "Freshly Brewed Coffee with a dash of cinnamon and Cold Soy Milk",
       "image": "https://globalassets.starbucks.com/assets/bffaf0f27e124801abcabe09f05b0fb2.jpg?impolicy=1by1_wide_topcrop_630",
-      "likes": 1,
+      "likes": 4,
       "id": 18
     },
     {

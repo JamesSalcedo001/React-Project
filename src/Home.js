@@ -13,6 +13,10 @@ function Home({coffee, deleter, updater}) {
         })
     },[])
 
+    function deleter(id){
+        const newCoffees = newOrders.filter((coffee) => coffee.id !== id)
+        setNewOrder(newCoffees)
+    }
 
     return (
         <div className="homeDiv">
