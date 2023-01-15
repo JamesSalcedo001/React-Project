@@ -66,7 +66,7 @@ body {
   width: 310px;
   height: 310px;
   position: relative;
-  top: -46vh;
+  top: -48vh;
 }
 
 .form {
@@ -199,7 +199,7 @@ color: rgb(198, 171, 112);
 
 .star {
   position: relative;
-  top: -50vh;
+  top: -50.8vh;
   left: -20vh;
   border: solid 0.5vh rgb(71, 50, 1);
   padding: 0.8vh;
@@ -232,14 +232,19 @@ input {
 
 #recipeP {
   color: rgb(75, 74, 74);
+  position: relative;
+  top: -0.5vh;
 }
 
 #recipeDiv {
   height: 16vh;
-  width: 50.8;
+  width: 50.5vh;
   border-radius: 3.5px;
   background-color: rgb(161,180,185);
   border: 0.5vh solid rgb(71, 50, 1);
+  position: relative;
+  top: -51vh;
+  left: -0.3vh;
 }
 
 #drinkNames {
@@ -250,6 +255,9 @@ input {
   border: 0.5vh solid rgb(71, 50, 1);
   width: 50.9vh;
   height: 43vh;
+  position: relative;
+  top: -1vh;
+  left: -0.5vh;
 }
 
 #delete {
