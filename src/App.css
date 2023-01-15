@@ -65,6 +65,8 @@ body {
   border-radius: 22vh;
   width: 310px;
   height: 310px;
+  position: relative;
+  top: -46vh;
 }
 
 .form {
@@ -196,6 +198,9 @@ color: rgb(198, 171, 112);
 }
 
 .star {
+  position: relative;
+  top: -50vh;
+  left: -20vh;
   border: solid 0.5vh rgb(71, 50, 1);
   padding: 0.8vh;
   border-radius: 1.6rem;
