@@ -40,6 +40,9 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
+#Pictures
+all of the pictures used are official Starbucks images!
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
