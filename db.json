@@ -6,7 +6,7 @@
       "type": "Blended",
       "image": "https://globalassets.starbucks.com/assets/410cd92738514641bf497d4b6a18c30f.jpg?impolicy=1by1_wide_topcrop_630",
       "recipe": "Frappuccino Roast mixed with Whole Milk, Caramel Flavor, blended with ice, and topped with whipped cream and caramel drizzle",
-      "likes": 6
+      "likes": 13
     },
     {
       "id": 4,
@@ -14,7 +14,7 @@
       "type": "Blended",
       "image": "https://globalassets.starbucks.com/assets/70198375bb0a442f8792437b5d1df972.jpg?impolicy=1by1_wide_topcrop_630",
       "recipe": "Frappuccino Roast mixed with Whole Milk, Mocha Syrup, blended with ice, and topped with whipped cream",
-      "likes": 0
+      "likes": 3
     },
     {
       "id": 5,
@@ -22,7 +22,7 @@
       "type": "Espresso",
       "image": "https://globalassets.starbucks.com/assets/58db701349cb48738069e8c912e2b3ac.jpg?impolicy=1by1_wide_topcrop_630",
       "recipe": "Steamed 2% Milk, light vanilla flavoring, topped with espresso shots and a crosshatching of caramel drizzle",
-      "likes": 3
+      "likes": 9
     },
     {
       "id": 6,
@@ -30,7 +30,7 @@
       "type": "Espresso",
       "image": "https://globalassets.starbucks.com/assets/fedee22e49724cd09fbcc7ee2e567377.jpg?impolicy=1by1_wide_topcrop_630",
       "recipe": "Smooth Extra Ristretto shots, steamed whole milk with microfoam, poured with precision",
-      "likes": 1
+      "likes": 4
     },
     {
       "id": 7,
@@ -38,7 +38,7 @@
       "type": "Iced Coffee",
       "image": "https://globalassets.starbucks.com/assets/b2841a2f51744869932c31834909f0e9.jpg?impolicy=1by1_wide_topcrop_630",
       "recipe": "Iced Coffee brewed for 20 hours, mixed with a vanilla syrup, ice, and topped with Pumpkin Cream Foam",
-      "likes": 5
+      "likes": 6
     },
     {
       "id": 8,
@@ -46,7 +46,7 @@
       "type": "Espresso",
       "image": "https://globalassets.starbucks.com/assets/895d6b3916c14ad6862d88ce282e8838.jpg?impolicy=1by1_wide_topcrop_630",
       "recipe": "Steamed 2% Milk and shots of espresso, Pumpkin Sauce, topped with Whipped Cream and Pumpkin Spice",
-      "likes": 0
+      "likes": 15
     },
     {
       "id": 9,
@@ -113,14 +113,6 @@
       "id": 17
     },
     {
-      "name": "Pike's Place",
-      "type": "Brewed Coffee",
-      "recipe": "Freshly Brewed Coffee with a dash of cinnamon and Cold Soy Milk",
-      "image": "https://globalassets.starbucks.com/assets/bffaf0f27e124801abcabe09f05b0fb2.jpg?impolicy=1by1_wide_topcrop_630",
-      "likes": 4,
-      "id": 18
-    },
-    {
       "name": "Birthday Cake Frappuccino",
       "type": "Blended",
       "recipe": "Grande Sized, Vanilla Bean Powder, Whole Milk, Hazelnut Syrup, Blended with Ice and topped with whipped cream!",
@@ -133,7 +125,7 @@
       "type": "Espresso",
       "recipe": "Grande, Iced, 2 ex pumps sugar cookie syrup, light ice, Soy Milk, sprinkles on top",
       "image": "https://globalassets.starbucks.com/assets/a7fb63cb5bee4f3d9c8fd79088be6337.jpg?impolicy=1by1_wide_topcrop_630",
-      "likes": 20,
+      "likes": 28,
       "id": 20
     }
   ]

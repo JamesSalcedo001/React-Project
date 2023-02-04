@@ -2,20 +2,20 @@ import Clock from "./Clock"
 import {useEffect, useState} from "react"
 import Card from "./Card"
 
-function Home({coffee, deleter, updater}) {
-    const [newOrders, setNewOrder] = useState([])
+function Home({updater}) {
+    const [recentOrders, setRecentOrder] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:3000/products?_sort=id&_order=desc&_limit=6")
+        fetch("http://localhost:3000/products?_sort=id&_order=desc&_limit=9")
         .then((res) => res.json())
-        .then((newOrd) => {
-            setNewOrder(newOrd)
+        .then((recentOrd) => {
+            setRecentOrder(recentOrd)
         })
     },[])
 
     function deleter(id){
-        const newCoffees = newOrders.filter((coffee) => coffee.id !== id)
-        setNewOrder(newCoffees)
+        const newCoffees = recentOrders.filter((coffeeObj) => coffeeObj.id !== id)
+        setRecentOrder(newCoffees)
     }
 
     return (
@@ -27,8 +27,8 @@ function Home({coffee, deleter, updater}) {
             <section>
                 <h1 id="homeCurrentOrders">CURRENT ORDERS</h1>
                 <ul id="newOrders">
-                    {newOrders.map((coffeeObj) => (
-                        <Card key={coffeeObj.id} coffee={coffeeObj} deleter={deleter} updater={updater}/>
+                    {recentOrders.map((coffeeObj) => (
+                        <Card key={coffeeObj.id} coffeeObj={coffeeObj} deleter={deleter} updater={updater}/>
                     ))}
                 </ul>
             </section>

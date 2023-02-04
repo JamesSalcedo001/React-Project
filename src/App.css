@@ -38,7 +38,7 @@ body {
   width: 100%;
 }
 
-.headerDiv {
+.headerSection {
   background-color: rgb(106, 104, 104);
   border: 0.5vh solid black;
   height: 11vh;

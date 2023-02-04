@@ -1,7 +1,7 @@
 import { useState} from "react"
 import {useHistory} from "react-router-dom"
 
-function Form({coffeeOrder}) {
+function Form({addCoffee}) {
 
     const history = useHistory()
 
@@ -25,8 +25,8 @@ function Form({coffeeOrder}) {
         }
         fetch("http://localhost:3000/products", configObj)
         .then((res) => res.json())
-        .then((coffee) => {
-            coffeeOrder(coffee)
+        .then((newCoffee) => {
+            addCoffee(newCoffee)
             setFormData({
                 name: "",
                 type: "",

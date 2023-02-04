@@ -1,7 +1,7 @@
 import {useState} from "react"
 
-function Card({coffee, deleter, updater}) {
-    const {name, id, type, recipe, image, likes} = coffee
+function Card({coffeeObj, deleter, updater }) {
+    const {name, id, type, recipe, image, likes} = coffeeObj
     const [favs, setFavs] = useState(false)
 
 
@@ -9,8 +9,7 @@ function Card({coffee, deleter, updater}) {
         fetch(`http://localhost:3000/products/${id}`, {
             method: "DELETE",
         })
-        .then((res) => res.json())
-        .then(deleter(id))
+        deleter(id)
     }
 
 
@@ -22,11 +21,11 @@ function Card({coffee, deleter, updater}) {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                likes: ++coffee.likes
+                likes: ++coffeeObj.likes
             })
         })
         .then((res) => res.json())
-        .then((updatedCoffee) => updater(updatedCoffee))
+        .then((coffeeObj) => updater(coffeeObj))
     }
 
     return (

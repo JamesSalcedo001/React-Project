@@ -1,23 +1,23 @@
 import Card from "./Card"
 import {useState, useEffect} from "react"
 
-function List({coffee, deleter, updater}) {
+function List({ updater, deleter}) {
     const [coffees, setCoffees] = useState([])
 
     useEffect(() => {
         fetch("http://localhost:3000/products")
         .then((res) => res.json())
-        .then((coffees) => setCoffees(coffees))
+        .then((coffeeObj) => setCoffees(coffeeObj))
     },[])
 
     function deleter(id){
-        const newCoffees = coffees.filter((coffee) => coffee.id !== id)
-        setCoffees(newCoffees)
+        const coffeeRemoved = coffees.filter((coffeeObj) => coffeeObj.id !== id)
+        setCoffees(coffeeRemoved)
     }
 
-    const coffeeMap = coffees.map((coffee) => {
+    const coffeeMap = coffees.map((coffeeObj) => {
         return (
-            <Card key={coffee.id} coffee={coffee} deleter={deleter} updater={updater} />
+            <Card key={coffeeObj.id} coffeeObj={coffeeObj} deleter={deleter} updater={updater} />
         )
     })
 

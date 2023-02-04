@@ -10,7 +10,7 @@ function Header({darkMode, darkToggle}) {
     const buttonText = darkMode ? <FaRegSun id="sun"/> : <FaRegMoon id="moon"/>
 
     return (
-        <header className="headerDiv">
+        <header className="headerSection">
             <nav>
                 <Link to="/" style={{textDecoration:"none"}}>
                     <h1 id="title">StarBucks</h1>

@@ -12,36 +12,29 @@ function App() {
 
   const [darkMode, setDarkMode] = useState(false)
 
-  const [coffee, addNewCoffee] = useState([])
-
+  const [coffee, setCoffee] = useState([])
 
   useEffect(() => {
     fetch("http://localhost:3000/products")
     .then((res) => res.json())
-    .then((coffee) => addNewCoffee(coffee))
+    .then((coffeeObj) => setCoffee(coffeeObj))
   },[])
 
-
-  const coffeeOrder = (newCoffee) => {
-    addNewCoffee((coffeeObj) => [...coffeeObj, newCoffee])
+  const addCoffee = (newCoffee) => {
+    setCoffee((coffeeArr) => [...coffeeArr, newCoffee])
   }
 
-
-  function deleter(deletedCoffee) {
-    const newCoffeeList = coffee.filter((coffee) => coffee.id !== deletedCoffee.id)
-    addNewCoffee(newCoffeeList)
-  }
-
-  function updater(updatedCoffee) {
+  function updater(targetCoffee) {
     const updatedCoffeeList = coffee.map((coffeeObj) => {
-      if (coffeeObj.id === updatedCoffee.id) {
-        return updatedCoffee
+      if (coffeeObj.id === targetCoffee.id) {
+        return targetCoffee
       } else {
         return coffeeObj;
       }
     })
-    addNewCoffee(updatedCoffeeList)
+    setCoffee(updatedCoffeeList)
   }
+
 
   function darkToggle(){
     setDarkMode((darkMode) => !darkMode)
@@ -54,15 +47,15 @@ function App() {
 
       <Switch>
         <Route path="/coffee/new">
-          <Form coffeeOrder={coffeeOrder} />
+          <Form addCoffee={addCoffee} />
         </Route>
 
         <Route path="/coffee">
-          <List coffee={coffee} deleter={deleter} updater={updater}/>
+          <List updater={updater}/>
         </Route>
 
         <Route path="/">
-          <Home coffee={coffee} deleter={deleter} updater={updater}/>
+          <Home updater={updater}/>
         </Route>
       </Switch>
     </div>
