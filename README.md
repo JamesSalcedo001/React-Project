@@ -1,19 +1,48 @@
-# Welcome to Starbucks!
+# Welcome To Starbucks!
 
-This project is designed to simulate a mobile order app for starbucks coffee!
+This app is designed for mobile ordering  Starbucks drinks!
 
-## What can one do? 
+## Installation
 
-There are three current routes: 
+This is a React JS application so in order to work with it, one needs to have Node.JS installed.
+To install Node.JS, this is the link: https://nodejs.org/en/download/
 
-### `Home`
+```Terminal
+run the command:
 
-The home component contains most recent orders to show what you've just ordered or ordered recently! It updates every time an order is added to the Coffee component!
+npm i react 
 
-### `coffee`
+to install react
+```
 
-The coffee component contains all the coffee orders starbucks has to order! Check out any of these options to get ideas on what you might want to try! Once you know, make your way to the Mobile Order page!
+## Usage
 
-### `coffee/new`
+There are three current routes, which are navigated through with a nav bar: 
 
-The coffee/new component is where you can place your order! you can put in a name, a description with what size you want, what you want to add or leave out, what type of drink it may be, blended, tea, brewed, espresso etc, and an image link to give our baristas an idea of what you are looking for!
+#home("/")
+The home component houses the most recent orders put into the order app. Whenever a new order is submitted, it shows up in the most recent orders on the home page. It also has a fun clock component showing the current time! 
+
+#coffee
+The coffee component houses a collection of cards showing coffee suggestions by Starbucks, showing possible drinks to order, as well as all of the orders placed by customers, similar to order tickets that pop out for baristas to make.
+
+#coffee/new
+The coffee/new component houses the order form, where customers can navigate to place their order, adding the name, description, any inclusions or things to leave out, sizing, and even an image link so baristas can see exactly what the customer wants!
+
+#extra
+There is also a fun dark/light mode at the top that customers can use to shift between whichever their preference is.
+
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+#Pictures
+all of the pictures used are official Starbucks images!
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
